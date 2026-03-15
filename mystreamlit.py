@@ -3,8 +3,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Predicción de depósito", page_icon="🏦", layout="centered")
 st.title("Predicción de suscripción a depósito bancario")
-st.info("Estado actual (15/03): despliegue todavía no implementado en esta semana de avance proporcional.")
+st.info("Versión en desarrollo: esta parte se completará en la fase de despliegue.")
 
 st.write(
-	"Pendiente para próximos pushes: cargar modelo_final.joblib, crear formulario completo de variables y mostrar predicción para nuevos clientes."
+	"Pendiente: cargar el modelo final, crear el formulario de entrada y mostrar la predicción para nuevos clientes."
 )
