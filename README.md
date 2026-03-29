@@ -32,8 +32,19 @@ Si no tienes entorno creado, puedes instalar rapido con:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install pandas numpy scikit-learn matplotlib seaborn joblib streamlit
+pip install -r requirements.txt
 ```
+
+Si prefieres instalar librerias manualmente, las dependencias principales son:
+
+- pandas
+- numpy
+- scikit-learn
+- scipy
+- matplotlib
+- seaborn
+- joblib
+- streamlit
 
 ## 3. Flujo recomendado de ejecucion
 
